@@ -1,0 +1,66 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#setting{
+    position: relative;
+    height: 100vh;
+    background: rgb(64,89,87);
+    background: linear-gradient(90deg, rgba(64,89,87,1) 0%, rgba(0,255,209,1) 100%);
+    /* background: rgb(44,34,47);
+background: linear-gradient(90deg, rgba(44,34,47,1) 0%, rgba(138,89,127,1) 100%); */
+/*
+.container{
+    padding-top: 7%;
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+.sett{
+    
+    background-color:rgba(57, 117, 112, 0.5);;
+    padding: 30px;
+    overflow: auto;
+}
+#particles-js{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+} */
+
+
+
+
+
+#quiz,#finish,#Correct,#inCorrect
+{
+    display: none;
+    
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* //background-image: linear-gradient(to left, #aa2ff2, #9e45f7, #9354fb, #8861fd, #7e6cfe); */
+ background-image: url(../images/Wave-100s-1366px\ \(2\).svg); 
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
+height: 100vh;
+}
+.close{
+    cursor: pointer;
+}
+.text-spec
+{
+    color: #653383
+}
+.bg-spec
+{
+   background-color:  #653383
+}
+button{
+    cursor: pointer;
+}
+.alert
+{
+    display: none;
+}
